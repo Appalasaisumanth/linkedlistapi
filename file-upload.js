@@ -20,7 +20,7 @@ const ensureDirectoryExists = (dir) => {
 
 // Multer configuration
 const fileUpload = multer({
-  limits: { fileSize: 10*1024*1024*10000 }, // Set file size limit to 500KB
+  limits: { fileSize: 10*1024*1024 }, // Set file size limit to 500KB
   storage: multer.diskStorage({
     destination: (req, file, cb) => {
       const ext = MIME_TYPE_MAP[file.mimetype]; // Get file extension based on MIME type
