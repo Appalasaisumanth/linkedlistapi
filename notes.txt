@@ -1,0 +1,3 @@
+#to make sure other routes won't work we use middleware and use
+"use" middleware :if condition satisfy we will move to next else we will respond with error
+post create new users,patch to update ,delete route for deleting users
