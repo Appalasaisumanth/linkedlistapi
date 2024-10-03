@@ -8,5 +8,5 @@ clone the repo to run on ur machine-port to 5000
 
  colleges can avoid students for inters if needed and that student can apply individually for any role 
 
- frontend deployed in https://frontend2-ivory.vercel.app/ visit them 
+ frontend deployed in https://frontend2-ivory.vercel.app/ https://frontend2-ivory.vercel.app/visit them 
 
